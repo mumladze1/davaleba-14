@@ -1,0 +1,77 @@
+/* Basic styling for the app */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Style for the task input field */
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Container for the two columns */
+.columns {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+/* Styling for the task lists */
+.task-list {
+  width: 45%;
+  background-color: #f3f3f3;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header for each task list */
+.task-list h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+/* Styling for the task items */
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the buttons */
+.task-item button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Button hover effects */
+.task-item button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for secondary buttons (Redo, Delete) */
+.task-item button:nth-child(3) {
+  background-color: #dc3545;
+}
+
+.task-item button:nth-child(3):hover {
+  background-color: #c82333;
+}
